@@ -19,6 +19,5 @@ link to the deployed site https://zach-greenberg.github.io/
     * float
     * center
     * position fix
-
-### Bugs/Fixes for later
-* The submit button on the contacts page loads into a 404 instead of sending me an email which will be corrected later.
+* Other
+    * used action = "mailto" to allow for contact submissions to be forwarded to my personal email
