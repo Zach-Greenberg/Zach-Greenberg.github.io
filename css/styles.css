@@ -18,7 +18,7 @@
 .menu .navbar-brand {
     font-size: 30px;
     font-weight: bold;
-    background-color: teal;
+    color: teal;
     
 }
 
@@ -46,7 +46,7 @@
 }
 
 #extraInfo {
-    text-align: center;
+    text-align: right;
 }
 
 /* portfolio */
