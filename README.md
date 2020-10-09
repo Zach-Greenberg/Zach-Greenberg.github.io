@@ -6,6 +6,8 @@ This program will run a Basic Portfolio with an About Me, Contacts, and portfoli
 
 link to the deployed site https://zach-greenberg.github.io/
 
+![Portfolio](img\portfolio.png)
+
 ### Tech Used
 * [Bootstrap 4](https://www.getbootstrap.com)
     * Navbars
