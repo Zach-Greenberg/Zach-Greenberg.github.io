@@ -2,9 +2,9 @@
 
 ## Objective
 
-This program will run a Basic Portfolio with an About Me, Contacts, and portfolio/project page. This program is the building block for future updates to keep up to date and professional for future employers to view my work.
+This Portfolio has an updated About Me, Contacts, and portfolio/project page. The projects page has img and links to my deployed projects for anyone to view and use.
 
-link to the deployed site https://zach-greenberg.github.io/
+link to portfolio https://zach-greenberg.github.io/
 
 ### Tech Used
 * [Bootstrap 4](https://www.getbootstrap.com)
