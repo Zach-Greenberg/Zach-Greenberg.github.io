@@ -6,7 +6,7 @@ This Portfolio has an updated About Me, Contacts, and portfolio/project page. Th
 
 link to portfolio https://zach-greenberg.github.io/
 
-![Portfolio](\img\portfolio.png)
+![Portfolio](/img/portfolio.png)
 
 ### Tech Used
 * [Bootstrap 4](https://www.getbootstrap.com)
