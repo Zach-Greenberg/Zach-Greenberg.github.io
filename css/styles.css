@@ -1,0 +1,98 @@
+:root{
+    --main-color:#4c84ff;
+    --primary-bg-color:#fff;
+    --secondary-bg-color:#eee;
+    --primary-text-color:#222;
+    --secondary-text-color:#666;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .3s cubic-bezier(0.38, 1.15, .7, 1.12);
+}
+
+*::selection{
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: var(--secondary-bg-color);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
+body{
+    background:var(--secondary-bg-color);
+}
+
+#menu{
+    font-size: 2rem;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 5rem;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    position: fixed;
+    top: 2rem; right: 2rem;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#menu.fa-times{
+    transform:rotate(-180deg);
+}
+
+.navbar{
+    position: fixed;
+    top: 2.5rem; right: 2.5rem;
+    padding: 1.1rem 2rem;
+    padding-right: 4rem;
+    z-index: 999;
+    border: .2rem solid var(--main-color);
+    border-radius: 1rem;
+    background: var(--primary-bg-color);
+    opacity: 0;
+    transform-origin: top right;
+    transform: scale(0);
+}
+
+.navbar.nav-toggle{
+    opacity: 1;
+    transform: scale(1); 
+}
+
+.navbar a{
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+    padding-right: 7rem;
+    color: var(--primary-text-color);
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+    transform: translateX(1rem);
+}
