@@ -46,6 +46,11 @@ body{
     background:var(--secondary-bg-color);
 }
 
+section{
+    /* padding: 1rem; */
+    padding: 0 8%;
+}
+
 #menu{
     font-size: 2rem;
     background: var(--main-color);
@@ -95,4 +100,15 @@ body{
 .navbar a:hover{
     color: var(--main-color);
     transform: translateX(1rem);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home .image{
+    
 }
