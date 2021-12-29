@@ -48,7 +48,7 @@ body{
 
 section{
     min-height: 100vh;
-    /* padding: 1rem; */
+    padding: 1rem;
     padding: 0 8%;
 }
 
@@ -188,4 +188,33 @@ section{
     padding: 1rem 0;
     color: var(--secondary-text-color);
     font-size: 2rem;
+}
+
+/* media queries */
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    section{
+        padding: 1rem;
+        padding: 0 3%;
+    }
+}
+
+@media (max-width:768px){
+
+    .home .image img{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width:400px){
+
+    html{
+        font-size: 50%;
+    }
 }
