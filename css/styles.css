@@ -311,6 +311,16 @@ section{
     width: 2rem;
     background: var(--main-color);
 }
+
+.about .download{
+    background: var(--primary-bg-color);
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding: 2rem;
+    padding-bottom: 3rem;
+    margin: 1rem;
+}
 /* media queries */
 
 @media (max-width:991px){
