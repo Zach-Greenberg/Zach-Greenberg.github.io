@@ -89,6 +89,15 @@ section{
    color: var(--primary-text-color); 
 }
 
+.heading{
+    font-size: 5rem;
+    color: var(--primary-text-color);
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+
 #menu{
     font-size: 2rem;
     background: var(--main-color);
