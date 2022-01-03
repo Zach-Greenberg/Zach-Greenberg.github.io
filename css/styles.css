@@ -340,6 +340,29 @@ section{
     position: relative;
     z-index: 0;
 }
+
+.services .box-container .box .number{
+    position: absolute;
+    top: 1.5rem; left: 2rem;
+    font-size: 2.5rem;
+    color: var(--primary-text-color);
+}
+
+.services .box-container .box img{
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem;
+}
+
+.services .box-container .box h3{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.services .box-container .box p{
+    font-size: 1.7rem;
+    color: var(--primary-text-color);
+}
 /* media queries */
 
 @media (max-width:991px){
