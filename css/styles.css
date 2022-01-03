@@ -321,6 +321,25 @@ section{
     padding-bottom: 3rem;
     margin: 1rem;
 }
+
+.services .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services .box-container .box{
+    background: var(--primary-bg-color);
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 35rem;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
 /* media queries */
 
 @media (max-width:991px){
