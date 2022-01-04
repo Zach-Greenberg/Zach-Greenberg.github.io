@@ -360,9 +360,29 @@ section{
 }
 
 .services .box-container .box p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--primary-text-color);
+    padding: 1rem;
 }
+
+.services .box-container .box::before{
+    content: '';
+    position: absolute;
+    top: 0%; left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--main-color);
+    z-index: -1;
+    clip-path: circle(25% at 0 0);
+    opacity: .1;
+    transition: .3s;
+}
+
+.services .box-container .box:hover::before{
+    clip-path: circle(100%);
+}
+
+
 /* media queries */
 
 @media (max-width:991px){
@@ -389,5 +409,9 @@ section{
 
     html{
         font-size: 50%;
+    }
+
+    .services .box-container .box{
+        width: 100%;
     }
 }
