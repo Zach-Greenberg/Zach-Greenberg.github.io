@@ -10,4 +10,16 @@ $(document).ready(function(){
         $('.navbar').removeClass('nav-toggle');
     })
 
+    $('.portfolio .button-container .btn').click(function(){
+
+        let filter = $(this).attr('data-filter');
+
+        if(filter == 'all'){
+            $('.portfolio .image-container .btn').show('400')
+        }else{
+            $('.portfolio .image-container .btn').not('.'+ filter).hide('200');
+            $('.portfolio .image-container .btn').filter('.'+ filter).show('400');
+        }
+    });
+
 });
