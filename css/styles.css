@@ -528,6 +528,7 @@ section{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
     border: 2rem solid var(--primary-bg-color);
+    width: 100%;
 }
 
 .contact .row form .inputBox{
@@ -607,6 +608,19 @@ section{
     color: var(--secondary-text-color);
 }
 
+.footer{
+    padding: 2.5rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-text-color);
+    background: var(--primary-bg-color);
+    margin-top: 1rem;
+}
+
+.footer span{
+    color: var(--main-color);
+}
+
 /* media queries */
 
 @media (max-width:991px){
@@ -644,6 +658,10 @@ section{
     }
 
     .blog .box-container .box{
+        width: 100%;
+    }
+
+    .contact .row form .inputBox input{
         width: 100%;
     }
 }
