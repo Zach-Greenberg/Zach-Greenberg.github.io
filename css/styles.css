@@ -570,6 +570,44 @@ section{
     cursor: pointer;
 }
 
+.contact .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact .box-container .box{
+    flex: 1 1 30rem;
+    margin: 1rem;
+    padding: 3rem 1rem;
+    background: var(--primary-bg-color);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.contact .box-container .box i{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    background: var(--secondary-bg-color);
+    color: var(--main-color);
+}
+
+.contact .box-container .box h3{
+    color: var(--primary-text-color);
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.contact .box-container .box p{
+    font-size: 1.5rem;
+    color: var(--secondary-text-color);
+}
+
 /* media queries */
 
 @media (max-width:991px){
