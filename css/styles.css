@@ -507,6 +507,69 @@ section{
     font-size: 1.5rem;
 }
 
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row form{
+    flex: 1 1 40rem;
+    background: var(--primary-bg-color);
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contact .row .map{
+    flex: 1 1 40rem;
+    margin: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border: 2rem solid var(--primary-bg-color);
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact .row form input, .contact .row form textarea{
+    padding: 1rem 0;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    border-bottom: .1rem solid var(--secondary-bg-color);
+    text-transform: none;
+    background: none;
+    color: var(--main-color);
+    width: 100%;
+}
+
+.contact .row form input::placeholder, .contact .row form textarea::placeholder{
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+}
+
+.contact .row form input:focus, .contact .row form textarea:focus{
+    border-color: var(--main-color);
+}
+
+.contact .row form .inputBox input{
+    width: 49%;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row form .btn{
+    cursor: pointer;
+}
+
 /* media queries */
 
 @media (max-width:991px){
